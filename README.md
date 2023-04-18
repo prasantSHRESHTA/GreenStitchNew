@@ -21,10 +21,10 @@ Library Used : Chart.Js Library
  
  
  
- Database Values Images : https://drive.google.com/file/d/1gnsdVnV1WFUD0LwN__UZW0sL3zzFMQe7/view?usp=sharing
-                          https://drive.google.com/file/d/19-05qlbQmqdWfZ5rbSbvOG3ZSlP5sOv6/view?usp=sharing
-                          https://drive.google.com/file/d/1LNJhcU3mkqM4-n8v3SEhnZAIO2k3hWo2/view?usp=share_link
-                          https://drive.google.com/file/d/12kk5JGrM1SsZwo0CMl5sX4eqkj1DPg1Q/view?usp=sharing
+ Database Values Images : https://drive.google.com/file/d/1gnsdVnV1WFUD0LwN__UZW0sL3zzFMQe7/view?usp=sharing ,
+                          https://drive.google.com/file/d/19-05qlbQmqdWfZ5rbSbvOG3ZSlP5sOv6/view?usp=sharing ,
+                          https://drive.google.com/file/d/1LNJhcU3mkqM4-n8v3SEhnZAIO2k3hWo2/view?usp=share_link ,
+                          https://drive.google.com/file/d/12kk5JGrM1SsZwo0CMl5sX4eqkj1DPg1Q/view?usp=sharing ,
                           
 Home Page Photo : https://drive.google.com/file/d/17oKPw5X27U-oajrOncwAV_UJZR0RvaKI/view?usp=sharing
 Home Page Video: https://drive.google.com/file/d/1Jdo-ME6wY35AqZlHPWrYarN_PNatztqs/view?usp=share_link
