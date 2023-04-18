@@ -2,11 +2,13 @@
 User Interface
 
 
-Language Used: Python .
+1. Language Used: Python .
 
-Framework : Django . 
+2. Framework : Django . 
 
-Library Used : Chart.Js Library .
+3. Library Used : Chart.Js Library .
+
+4. Database Used: Sqlite3 .
 
 -Steps to Run the project:
 
