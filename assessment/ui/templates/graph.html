@@ -1,0 +1,44 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'Graph.css'%}">
+
+
+<div class="graph">
+    <div class="graph-flex-item1">
+        <div class="head">Carbon FootPrint<span class="right"><span
+                    class="dots">&#128994</span>&nbsp;Spinning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="dots">&#128309</span>&nbsp;Transportation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="dots">&#128993;</span>&nbsp;Carding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    class="dots">&#128992</span>&nbsp;Heating & Cooling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                    src="{% static 'greenBars.png' %}"></span></div>
+        <div class="dough"> {% include 'stackedbar.html' %}
+        </div>
+    </div>
+
+</div>
+
+<div class="graph">
+
+    <div class="graph-flex-item2">
+
+        <div class="head2">Carbon FootPrint</div>
+        {% include 'doughnut.html' %}
+        <div class="list">
+            <img src="{% static 'greendot.png' %}">
+            Spinning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12%
+        </div>
+        <div class="list">
+            <img src="{% static 'bluedot.png' %}">
+            Transportation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16%
+        </div>
+        <div class="list">
+            <img src="{% static 'yellowdot.png' %}">
+            Carding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27%
+        </div>
+        <div class="list">
+            <img src="{% static 'orangedot.png' %}">
+            Heating & Cooling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35%
+        </div>
+    </div>
+
+</div>

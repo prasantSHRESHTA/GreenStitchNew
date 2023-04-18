@@ -1,0 +1,18 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'content.css'%}">
+
+<div class="flex3">
+    {% for Subjects in Subjects %}
+
+    <div class="flex">
+        <div class="flex-items">
+            <div class="title">Emission by {{Subjects.subject}}</div>
+            <div class="numVal">{{Subjects.num_value}}</div>
+            <div class="co2e">CO2e</div>
+            <div class="perbox"><span class="per">{{Subjects.percent_inc_dec}}</span></div>
+        </div>
+
+    </div>
+    {% endfor %}
+
+</div>

@@ -1,0 +1,138 @@
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 232px;
+  height:100%;
+  background: #FFFFFF;
+}
+
+.sidebar .logo-details {
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sidebar .nav-links .dashboard{
+ width: 101px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+color: #9D9FA2;
+
+}
+
+.sidebar .nav-links li {
+  position: relative;
+  list-style: none;
+  transition: all 0.4s ease;
+}
+.sidebar .nav-links li:hover {
+  background: #f3f1f6;
+}
+.sidebar .sub-menu li:hover {
+  background: none;
+  color: #77619e;
+}
+.sidebar .nav-links li .icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar.close .nav-links li .icon-link {
+  display: block;
+}
+.sidebar .nav-links li i {
+  height: 50px;
+  min-width: 78px;
+  text-align: center;
+  line-height: 50px;
+  color: #77619e;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sidebar .nav-links li.showMenu i.arrow {
+  transform: rotate(-180deg);
+}
+
+.sidebar .nav-links li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.sidebar .nav-links li a .link_name {
+width: 130px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+color: #282828;
+}
+
+.sidebar .nav-links li a .link_name .logoIMG{
+  margin-right:5px;
+}
+.sidebar .nav-links li .sub-menu {
+  margin-top: 0px;
+  background: #fff;
+  display: none;
+}
+.sidebar .nav-links li.showMenu .sub-menu {
+  display: block;
+}
+.sidebar .nav-links li .sub-menu a {
+  width: 55px;
+height: 22px;
+margin-top: 2px;
+padding: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+border-radius: 5px;
+
+color: #282828;
+
+}
+.sidebar .nav-links li .sub-menu a:hover {
+  opacity: 1;
+  background-color: #f3f1f6;
+}
+
+
+.sidebar .nav-links li .sub-menu .link_name {
+  display: none;
+}
+
+
+
+
+.home-section {
+  position: relative;
+  left: 224px;
+  width: calc(100% - 260px);
+  transition: all 0.5s ease;
+}
+
+.home-section .home-content {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  
+  .sidebar {
+    width: 78px;
+  }
+ 
+}

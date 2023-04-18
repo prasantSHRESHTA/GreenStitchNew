@@ -1,0 +1,54 @@
+<div>
+    <canvas id="myChart" height="240px" width="700px"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+<script>
+    const DATA_COUNT = 7;
+    const ctx = document.getElementById('myChart');
+    const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY'],
+            datasets: [
+                {% for Subjects in Subjects %} 
+                {
+                    label: '{{ Subjects.subject }}',
+                    data: [{{Subjects.janValue}},{{Subjects.febValue}},{{Subjects.marValue}},{{Subjects.aprValue}},{{Subjects.mayValue}},{{Subjects.juneValue}},{{Subjects.julyValue}}],
+                    backgroundColor: [
+                        '{{ Subjects.color }}',
+                    ],
+                    borderRadius:10,
+                    maxBarThickness:39,
+                },
+                {% endfor %}
+            ]
+        },
+    options: {
+        responsive: true,
+            plugins: {
+             legend: {
+                display: false,
+            },
+
+        },
+        scales: {
+            y: {
+                ticks: {
+                    beginAtZero: true
+                },
+                grid: {
+                    display: false
+                },
+                stacked: true,
+                },
+            x: {
+                grid: {
+                    display: false
+                },
+                stacked: true,
+                }
+        }
+    }
+    });
+
+</script>

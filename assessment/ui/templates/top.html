@@ -1,0 +1,21 @@
+{% load static %}
+
+<link href="{% static 'NavTop.css' %}" rel="stylesheet">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
+
+<div class="navbar">
+    <ul>
+       <li>
+           <form action="/search/" method="GET">
+           
+            <input type="text" name="query" placeholder="Search...">
+           </form>
+       </li>
+         <li><a href="#"><img class="topICON" src="{% static 'bell.png' %}"></a></li>
+         <li><a href="#"><img class="topICON" src="{% static 'calendar.png' %}"></a></li>
+         <li><a href="#"><img class="topICON" src="{% static 'dashboards.png' %}"></a></li>
+         <li><img class="TOPlogo" width="55" height="55" src="{% static 'logo.png' %}"></li>
+    </ul>
+
+</div>

@@ -1,0 +1,80 @@
+
+.navbar {
+box-sizing: border-box;
+width: 1287px;
+border-bottom: 1px solid #EAECF0;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin:0px;
+}
+
+
+
+.navbar ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+#search{
+    top:100;
+    margin-top: 50px;
+   color:red;
+
+}
+
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #ddd;
+}
+
+/* Style for the search bar */
+.navbar form {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.navbar input[type="text"] {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 8px;
+width: 905px;
+height: 46px;
+background: #FFFFFF;
+border: 1px solid #EAECF0;
+border-radius: 6px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.navbar .topICON{
+    margin-top:20px;
+    width: 10px;
+    height:20;
+}
+
+.navbar .TOPlogo{
+margin-top:15px;
+margin-left:20px;
+}

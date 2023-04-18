@@ -1,0 +1,27 @@
+<style>
+    body{
+    position: relative;
+    width: 1440px;
+    height: 100%;
+    background: #F2F4F7;
+    }
+</style>
+<body>
+{% include 'sidebar.html' %}
+<div class="home-section">
+    <div class="home-content">
+        {% include 'top.html' %}
+    </div>
+</div>
+ <section class="home-section">
+    <div class="home-content">
+       {% include 'content.html' %}
+    </div>
+</section>
+<section class="home-section">
+    <div class="home-content">
+       {% include 'graph.html' %}
+    </div>
+</section>
+</body>
+

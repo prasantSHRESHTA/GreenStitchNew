@@ -1,0 +1,42 @@
+
+<div>
+    <canvas id="myChart2" width="150px"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+<script>
+    const ctx2 = document.getElementById('myChart2');
+    const myChart2 = new Chart(ctx2, {
+        type: 'doughnut',
+        data: {
+
+            datasets: [{
+                label: 'Emission',
+                data: [{% for Subjects in Subjects %}
+
+                    "{{ Subjects.top_emission }}",
+
+                {% endfor %}],
+                backgroundColor: [
+                    {% for Subjects in Subjects %}
+
+                    "{{ Subjects.color }}",
+
+                {% endfor %}
+                ],
+                hoverOffset: 4,
+                cutout:39,
+                borderRadius:10,
+                borderAlign:'inner',
+                radius:70
+            }]
+        },
+        options:{ layout: {
+            padding: 20
+        },
+            responsive: true,
+            }
+
+    });
+
+
+</script>

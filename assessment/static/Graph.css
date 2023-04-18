@@ -1,0 +1,74 @@
+.graph-flex-item1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      gap: 8px;
+      width: 800px;
+      height: 284px;
+      margin-right: 32px;
+      margin-left: 50px;
+      background: #FFFFFF;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+
+}
+
+.graph-flex-item2 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      gap: 8px;
+      width: 230px;
+      height: 284px;
+      margin-right: 32px;
+      background: #FFFFFF;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+      border-radius: 12px;
+}
+
+.graph{
+margin-top:750px;}
+
+.head{
+
+      left: 31px;
+      height: 10px;
+      margin-bottom: 40px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+      /* identical to box height, or 24px */
+      letter-spacing: -0.02em;
+
+      color: #282828;
+
+}
+
+.graph .graph-flex-item1 .right{
+      margin-left: 100px;
+      font-size: 15px;
+}
+
+.head2{
+width: 232px;
+height: 22px;
+margin-left: 50px;
+font-weight: 700;
+font-size: 20px;
+}
+
+.list{
+      margin-left: 30px;
+}
+
+.dough{
+      margin-top: 0px;
+}
+
+#myChart2{
+      margin-left: 50px;
+}

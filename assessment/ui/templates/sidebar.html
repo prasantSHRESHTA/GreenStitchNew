@@ -1,0 +1,50 @@
+
+  {% load static %}
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="{% static 'Sidebar.css' %}">
+  <div class="sidebar">
+    <div class="logo-details">
+      <span class="logo_name"><img src="{% static 'green.png' %}"></span>
+    </div>
+    <ul class="nav-links">
+      <span class = 'dashboard' >DASHBOARD</span>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <span class="link_name"><img class="logoIMG" height="13" src="{% static 'vector.png' %}"></img>Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="#">Record</a></li>
+          <li><a href="#">Report</a></li>
+          <li><a href="#">Analysis</a></li>
+          <li><a href="#">Learn</a></li>
+        </ul>
+      </li>
+      <span class = 'dashboard' >PAGES</span>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <span class="link_name"><img class="logoIMG" height="13" src="{% static 'help.png' %}"></img>Help Center</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <span class="link_name"><img class="logoIMG" height="13" src="{% static 'file.png' %}"></img>File Manager</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  
+
+  <script src="{% static 'sidebar.js' %}"></script>
+
